@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Diplomata+SC&family=Ewert&family=Frijole&family=Indie+Flower&family=McLaren&family=Open+Sans:wght@300&family=Pacifico&family=Roboto:ital,wght@0,100;0,400;1,300&family=Vast+Shadow&display=swap');
+
+*{box-sizing:border-box;}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    background-color: wheat;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: "Pacifico";
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width: 700px;	
+	padding:20px;
+	border-radius:10px;
+	margin:auto;
+    background-color: rgb(4, 172, 172);
+    border-radius: 15px;
+    font-family: "Black Ops One";
+    font-size: 1.5em;
+}
+
+form label{
+	width: 400px;
+	font-weight:bold;
+    display:inline-block;
+}
+
+form select{
+    width: 180px;
+    font-weight:bold;
+    font-size: 14px;
+}
+
+form legend {
+    font-size: 20px;
+    font-family: "sans-serif";
+    color: white;
+}
+
+form input[type="text"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+
+form input[type="reset"], form input[type ="submit"]{
+	width:130px;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	color:#fff;
+    background-color:#000;
+    margin-left: 15%; 
+    font-size: 1em; 
+    font-family: 'black ops one';
+}
+
+form input[type="reset"], form input[type="submit"],  #provincia:hover{
+    cursor:pointer;;
+}
+
+
+.pie {
+    font-size: 1.5em;
+    font-family: "Indie Flower";
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pie span {
+    padding: 0 10px;
+    font-size: 1.5em;
+    color: green;
+    font-family: Indie Flower;
+}
+
+
+#error {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: red;
+    font-size: 20px;
+    font-family: "vast shadow";
+}
+
+#intento {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: blue;
+    font-size: 20px;
+    font-family: "vast shadow";
+}
+
+/* ---------------------- PAGIANA HTML 2-----------------------------*/
+
+#pagina2{
+    background-color: turquoise;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#titulo2{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 3em;
+    font-family: "ewert";
+    color: blue;
+    border-bottom: 6px solid;
+}
+
+#contenedor2{
+    display: flex;
+    flex-direction: column;
+    height: 1050px;
+    align-items: center;
+}
+
+#footer{
+    margin-top: 500px;
+    font-size: 20px;
+    border-bottom: 6px solid;
+}
+
+#texto{
+    font-size: 4em;
+    font-family: 'pacifico';  
+}
